@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+    xmlns: gx="http://www.google.com/kml/ext/2.2"
+    xmlns: xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"
+    xmlns: atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>R200</name>
+        <Style id="pathStyle">
+            <LineStyle>
+                <color>7fff00ff</color>
+                <width>4.0</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7 f00ff00</color>
+            </PolyStyle>
+            <BalloonStyle>
+                <displayMode>hide</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="startedStyle">
+            <IconStyle>
+                <scale>0.5</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <width>2.0</width>
+            </LineStyle>
+            <BalloonStyle>
+                <displayMode>hide</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="arrivedAtDestinationStyle">
+            <IconStyle>
+                <scale>0.5</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <width>2.0</width>
+            </LineStyle>
+            <BalloonStyle>
+                <displayMode>hide</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="arrivedAtDestinationAutoStyle">
+            <IconStyle>
+                <scale>0.7</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pal5/icon14.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <width>2.0</width>
+            </LineStyle>
+            <BalloonStyle>
+                <displayMode>hide</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="finishStyle">
+            <IconStyle>
+                <scale>0.5</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <width>2.0</width>
+            </LineStyle>
+            <BalloonStyle>
+                <displayMode>hide</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Folder>
+            <name>KILOUTOU [33584448/33584448]</name>
+            <address>RUE SEBASTIEN ET JACQUES LORENZI,
+93440 DUGNY,
+FR</address>
+            <phoneNumber>+33623795029</phoneNumber>
+            <description>10/02 09: 00 Reprise ELE18D010083 Quantite: 1 No DRC 33584448 OTV Contact: Mamou Jeremy Telephone: 0623795029 Agence Retour: Q641 Infos Liv: OTV GRAND PARIS-USINE DE DEPOLLUTION BERNARD CHOLIN BONNEUIL EN FRANCE Infos Ret: OTV GRAND PARIS-USINE DE D</description>
+            <Placemark>
+                <name>Démarré à 15h40</name>
+                <open>0</open>
+                <TimeStamp>
+                    <when>2023-02-10T14:40:39Z</when>
+                </TimeStamp>
+                <styleUrl>#startedStyle</styleUrl>
+                <Point>
+                    <extrude>1</extrude>
+                    <coordinates>2.43426,48.93287</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Démarréà15 h41</name>
+                <open>0</open>
+                <TimeStamp>
+                    <when>2023-02-10 T14: 41: 02 Z</when>
+                </TimeStamp>
+                <styleUrl>#startedStyle</styleUrl>
+            </Placemark>
+            <Placemark>
+                <name>Arrivéàdestinationà16 h37</name>
+                <open>0</open>
+                <TimeStamp>
+                    <when>2023-02-10 T15: 37: 51 Z</when>
+                </TimeStamp>
+                <styleUrl>#arrivedAtDestinationStyle</styleUrl>
+                <Point>
+                    <extrude>1</extrude>
+                    <coordinates>2.42372,
+48.95913</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Terminé à 16h37</name>
+                <open>0</open>
+                <TimeStamp>
+                    <when>2023-02-10T15:37:52Z</when>
+                </TimeStamp>
+                <styleUrl>#finishStyle</styleUrl>
+                <Point>
+                    <extrude>1</extrude>
+                    <coordinates>2.42372,48.95913</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <styleUrl>#pathStyle</styleUrl>
+                <LineString>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>2.43165,48.94182 2.42913,48.9385 2.43434,48.93287 2.43426,48.93287 2.4323,48.93289 2.430318,48.932973 2.42703,48.93399 2.42692,48.934097 2.42762,48.936643 2.42816,48.93722 2.427968,48.938176 2.42794,48.93823 2.41674,48.951751 2.416391,48.954207 2.41637,48.9544 2.417839,48.954597 2.41783,48.954604 2.417859,48.954626 2.41782,48.95456 2.41787,48.95459 2.41788,48.95456 2.41787,48.95456 2.41791,48.95458 2.41794,48.95457 2.41795,48.95457 2.4179,48.95458 2.417835,48.954601 2.42205,48.95671 2.42363,48.959169 2.42366,48.959152 2.423666,48.959151 2.42372,48.95913 2.42372,48.95913</coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
